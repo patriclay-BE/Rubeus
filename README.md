@@ -16,7 +16,7 @@ The [KerberosRequestorSecurityToken.GetRequest](https://msdn.microsoft.com/en-us
 
 [@harmj0y](https://twitter.com/harmj0y) is the primary author of this code base.
 
-A CHANGE FROM GITHUB THAT SHOULD BE MERGED EVEN IF THERE IS A MERGE CONFLICT IN ANOTHER LINE X Rubeus is licensed under the BSD 3-Clause license.
+CONFLICTING FROM GITHUB Rubeus is licensed under the BSD 3-Clause license.
 
 ## Table of Contents
 
