@@ -2,11 +2,10 @@
 
 ----
 
-MAL SEHEN WAS JETZT PASIERT XX Rubeus is a C# toolset for raw Kerberos interaction and abuses. It is **heavily** adapted from [Benjamin Delpy](https://twitter.com/gentilkiwi)'s [Kekeo](https://github.com/gentilkiwi/kekeo/) project (CC BY-NC-SA 4.0 license) and [Vincent LE TOUX](https://twitter.com/mysmartlogon)'s [MakeMeEnterpriseAdmin](https://github.com/vletoux/MakeMeEnterpriseAdmin) project (GPL v3.0 license). Full credit goes to Benjamin and Vincent for working out the hard components of weaponization- without their prior work this project would not exist.
-SHOULD NOT PRODUCE A CONFLICT
+Rubeus is a C# toolset for raw Kerberos interaction and abuses. It is **heavily** adapted from [Benjamin Delpy](https://twitter.com/gentilkiwi)'s [Kekeo](https://github.com/gentilkiwi/kekeo/) project (CC BY-NC-SA 4.0 license) and [Vincent LE TOUX](https://twitter.com/mysmartlogon)'s [MakeMeEnterpriseAdmin](https://github.com/vletoux/MakeMeEnterpriseAdmin) project (GPL v3.0 license). Full credit goes to Benjamin and Vincent for working out the hard components of weaponization- without their prior work this project would not exist.
 
 [Charlie Clark](https://twitter.com/exploitph) and [Ceri Coburn](https://twitter.com/_EthicalChaos_) have both made _significant_ contributions as co-developers to the Rubeus codebase. [Elad Shamir](https://twitter.com/elad_shamir) contributed some essential work for resource-based constrained delegation. Their work is very appreciated!
-MERGE CONFLICT060124
+
 Rubeus also uses a C# ASN.1 parsing/encoding library from [Thomas Pornin](https://github.com/pornin) named [DDer](https://github.com/pornin/DDer) that was released with an "MIT-like" license. Huge thanks to Thomas for his clean and stable code!
 
 PKINIT code heavily adapted from [@SteveSyfuhs](https://twitter.com/SteveSyfuhs)'s [Bruce](https://github.com/dotnet/Kerberos.NET) tool. Bruce made RFC4556 (PKINIT) a lot easier to understand. Huge thanks to Steve!
@@ -17,8 +16,8 @@ The [KerberosRequestorSecurityToken.GetRequest](https://msdn.microsoft.com/en-us
 
 [@harmj0y](https://twitter.com/harmj0y) is the primary author of this code base.
 
-NEW MERGE CONFLICT YEI Rubeus is licensed under the BSD 3-Clause license.
-NOW A CHANGE IN ANOTHER LINE
+Rubeus is licensed under the BSD 3-Clause license.
+
 ## Table of Contents
 
 - [Rubeus](#rubeus)
@@ -34,7 +33,6 @@ NOW A CHANGE IN ANOTHER LINE
     - [asktgt](#asktgt)
     - [asktgs](#asktgs)
     - [renew](#renew)
-  NOW A GITHUN CHANGE SOMEWHERE COMPLETELY DIFFERENT
     - [brute](#brute)|spray
   - [Constrained delegation abuse](#constrained-delegation-abuse)
     - [s4u](#s4u)
@@ -47,7 +45,6 @@ NOW A CHANGE IN ANOTHER LINE
     - [purge](#purge)
     - [describe](#describe)
   - [Ticket Extraction and Harvesting](#ticket-extraction-and-harvesting)
-  - THIS UPDATE SHOULD NOT BRING A CONFLICT
     - [triage](#triage)
     - [klist](#klist)
     - [dump](#dump)
